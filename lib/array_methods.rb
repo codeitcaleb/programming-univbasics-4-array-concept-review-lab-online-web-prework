@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
      current_value = array[index]
      index += 1 
      
-     return array.index(current_value)
+     return |array|.index(current_value)
   end   
 end
 
