@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
       array.length.times do |counter|
       if array[counter] == value_to_find
       current_value = array.length.times[index]
-     index += 1 
+      index += 1 
      
      return |array|.index(current_value)
   end   
