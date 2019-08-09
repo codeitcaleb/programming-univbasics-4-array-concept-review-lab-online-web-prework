@@ -2,7 +2,8 @@ def find_element_index(array, value_to_find)
   index = 0
   
   while index < value_to_find do 
-     current_value = array
+     current_value = array[index]
+     index += 1 
   array.index(current_value)
 end
 
