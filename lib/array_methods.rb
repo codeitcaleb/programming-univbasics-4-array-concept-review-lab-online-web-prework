@@ -4,7 +4,8 @@ def find_element_index(array, value_to_find)
   while index < value_to_find do 
      current_value = array[index]
      index += 1 
-  array.index(current_value)
+     
+     array.index(current_value)
 end
 
 def find_max_value(array)
